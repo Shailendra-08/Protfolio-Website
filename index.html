@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d631347562.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <h1 class="logo">Portfo<span>lio.</span></h1>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+
+                <p>Junior Engineer</p>
+                <h1>Hi, I'm <span>Shailendra</span><br>
+                    Mahadule</h1>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- //about section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./asset/passport photo.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>HI..!! There i am Shailendra Mahadule
+                        I am computer greek, I am a Self-motivated person & Eager to learn different things and also I can adapt quickly any Environment.
+                        
+                    </p>
+
+                    <div class="tab-titles">
+
+
+                        <p class="tab-links active-links" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web developer</span><br>Website Developer</li>
+                            <li><span>Android Developer</span> <br>Application Development in android</li>
+                            <li><span>Coder</span><br> C++ / Java Developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Android Internship/Tranning </span><br>Assum Inovation Nagpur <br>2021</li>
+
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Gujarati National High school Gondia </span><br>SSC <br>2019</li>
+                            <li><span>Government Polytechnic Nagpur</span> <br>Diploma in Information Technology
+                                <br>2019 - 2022
+                            </li>
+                            <li><span>Walchand College of Engineering Sangli</span> <br>B-tech in Information Technology
+                                <br>2022 - stared
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web developers create and maintain websites. They are also responsible for the site's technical aspects, such as its performance and capacity, which are measures of a website's speed and how much traffic the site can handle<p>
+                    <a href="#">Learn more..</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Developer</h2>
+                    <p>An application developer is a professional who designs, creates, deploys and updates programs for a particular device, the web or a specific operating system. Developers typically specialize in one area of development, such as mobile phone applications</p>
+                    <a href="#">Learn more..</a>
+
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React developer</h2>
+                    <p>A React developer designs and creates JavaScript-based applications for web or mobile environments. They typically specialize in front-end development. React is an open-source JavaScript library</p>
+                    <a href="#">Learn more..</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./asset/work-1.png" alt="work">
+                    <div class="layer">
+                        <h3>Flying Fish game</h3>
+                        <p>The game is made using Java and XML in Android Studio.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./asset/work-2.png" alt="work">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe game</h3>
+                        <p>The game is made using Java and XML in Android Studio..</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./asset/work-3.png" alt="work">
+                    <div class="layer">
+                        <h3>E-commerce website</h3>
+                        <p>An E-commerce Website is made using Html Css and javascript </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>shailendramahadule08@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>Mail me</p>
+                    <div class="social-icon">
+
+                        <a href="https://www.instagram.com/shailendra_mahadule/"><i class="fa-brands fa-instagram"></i></a>
+
+                        <a href="https://twitter.com/Shailen64591797"><i class="fa-brands fa-twitter"></i></a>
+
+                        <a href="https://www.linkedin.com/in/shailendra-mahadule-96955b200"><i class="fa-brands fa-linkedin"></i></a>
+
+                        <a href="https://github.com/Shailendra-08"><i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                    <a href=".../asset/resume.pdf" download class="btn btn2">Download CV</a>
+
+
+                </div>
+
+                <div class="contact-right">
+                    <form onsubmit="getemail(); reset(); return false;">
+
+                        <input type="text" id="name" name="Name " placeholder="Your Name" required>
+                        <input type="email" id="email" name="E-mail" placeholder="Your E-mail" required>
+                        <textarea name="Message" id="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+
+
+                    </form>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>copyright @ Developer. Made by Shailendra Mahadule</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- javascript -->
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+  
+
+  
+
+
+</body>
+
+</html>
